@@ -53,7 +53,6 @@ nav li {
     align-items: center;
     width: calc(80% - 50px);
     margin: auto;
-    gap: 50px;
 }
 
 .img1 {
@@ -71,6 +70,7 @@ nav li {
 
 
 .banner-title {
+    width: 582px;
     color: #3A3A3A;
     font-size: 3.25rem;
     font-style: normal;
@@ -95,9 +95,69 @@ nav li {
 
 /* for mobile devices */
 @media screen and (max-width:576px) {
+    /* nav styles  */
     nav {
         flex-direction: column;
         margin-right: 10px;
         padding: 10px;
+    }
+
+    /* banner styles  */
+
+    .banner {
+        flex-direction: column-reverse;
+        
+    }
+
+    .banner-img {
+        width: 100%;
+       
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .img1 {
+        position:relative;
+        z-index: 10;
+        left: 0;
+        bottom: px;
+        
+    }
+
+    .img2 {
+        position: relative;
+        left: 0;
+        top: 5px;
+        
+    }
+
+    .banner-info, .banner-title {
+        text-align: center;
+        width: 100%;
+        margin-top: -85px;
+    }
+    
+
+    
+
+
+
+}
+
+
+/* for medium devices */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        flex-direction: column;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+
+    .banner {
+        flex-direction: column;
     }
 }
