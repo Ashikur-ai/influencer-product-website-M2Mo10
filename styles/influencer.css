@@ -176,7 +176,12 @@ nav li {
     }
     
 
-
+    .sponsor {
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        
+    }
 
     
 
@@ -188,14 +193,20 @@ nav li {
 /* for medium devices */
 
 @media screen and (min-width:576px) and (max-width:992px) {
+    /* navigation styles  */
     nav {
         flex-direction: column;
         margin-right: 10px;
         padding: 10px;
     }
 
-
+    /* banner styles  */
     .banner {
         flex-direction: column;
+    }
+
+    
+    .banner-info {
+        text-align: center;
     }
 }
