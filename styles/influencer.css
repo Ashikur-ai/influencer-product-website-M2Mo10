@@ -238,6 +238,10 @@ nav li {
     }
 
     
+    /* popular styles  */
+    .collection-card-container {
+        grid-template-columns: auto;
+    }
 
 
 
@@ -262,5 +266,12 @@ nav li {
     
     .banner-info {
         text-align: center;
+    }
+
+    /* popular styles  */
+    .collection-card-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        
     }
 }
