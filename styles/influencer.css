@@ -90,6 +90,42 @@ nav li {
     border: none;
 }
 
+
+/* sponsor styles  */
+.sponsor {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    border-top: 1px solid seashell;
+    border-bottom: 1px solid seashell;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive styles  */
 
 
@@ -139,6 +175,8 @@ nav li {
         margin-top: -85px;
     }
     
+
+
 
     
 
